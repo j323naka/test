@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h> //訂正理由：exit関数が存在するため
-#include <math.h> // 訂正理由：sqrt 関数が存在するため
 
 int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないときエラー表示を行い exit(1) とする。
 {
